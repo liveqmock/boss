@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+if auth-constraint is not defined, only check whether current operator exists. 
+
+After 2004-11-24 this file is not only defining relation between module number and *.screen/*.do, 
+it also difining relation between module number and some fixed datas.
+-->
+<!--权限分配说明-->
+<!--
+1-99号权限给应用程序使用
+100-399号权限给客服模块
+400-599号权限给后台管理模块，请将权限号码的顺序与菜单顺序保持一致
+600-799号权限给系统配置
+800-999号权限给营业统计和报表 
+1000-1099号给大客户管理
+-->
+<!--给每个模块追加权限的时候，要给以模块的说明-->
+
+<signon-config>
+
+ <!-- Form Sign On Page-->
+ <signon-form-login-page>
+  enter.htm
+ </signon-form-login-page>
+ <!-- Error Page When Sign On fails-->
+ <signon-form-error-page>
+  right_error.screen
+ </signon-form-error-page>
+
+</signon-config>

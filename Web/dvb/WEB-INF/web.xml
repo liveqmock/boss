@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <context-param>
+    <param-name>weblogic.httpd.inputCharset./*</param-name>
+    <param-value>GBK</param-value>
+  </context-param>
+  <context-param>
+    <param-name>boss.type.flag</param-name>
+    <param-value>p5</param-value>
+  </context-param>
+  <context-param>
+    <param-name>boss.debug.flag</param-name>
+    <param-value>1</param-value>
+  </context-param>
+  <context-param>
+    <param-name>boss.config.model.configname</param-name>
+    <param-value>SET_G_WEBMODULE</param-value>
+  </context-param>
+  <context-param>
+    <param-name>JNDINames.EJB_CONTROLLER_EJBHOME</param-name>
+    <param-value>EJBController</param-value>
+  </context-param>
+  
+  <filter>
+    <filter-name>AuthorizationFilter</filter-name>
+    <display-name>AuthorizationFilter</display-name>
+    <description>no description</description>
+    <filter-class>com.dtv.oss.web.filter.AuthorizationFilter</filter-class>
+  </filter>
+
+  <filter>
+    <filter-name>BookmarkFilter</filter-name>
+    <display-name>BookmarkFilter</display-name>
+    <description>no description</description>
+    <filter-class>com.dtv.oss.web.filter.BackBookmarkFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>BookmarkFilter</filter-name>
+    <url-pattern>bookmark.back</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>AuthorizationFilter</filter-name>
+    <url-pattern>*.screen</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>AuthorizationFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>AuthorizationFilter</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+
+  <listener>
+    <listener-class>com.dtv.oss.web.controller.DefaultComponentManager</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.dtv.oss.web.util.ConfigMenuContextListener</listener-class>
+  </listener>
+ 
+  <servlet>
+    <servlet-name>webEntryPoint</servlet-name>
+    <servlet-class>com.dtv.oss.web.controller.ControlServlet</servlet-class>
+    <init-param>
+      <param-name>default_locale</param-name>
+      <param-value>zh_CN</param-value>
+    </init-param>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>webOutPoint</servlet-name>
+    <servlet-class>com.dtv.oss.web.view.TemplateServlet</servlet-class>
+    <init-param>
+      <param-name>default_locale</param-name>
+      <param-value>zh_CN</param-value>
+    </init-param>
+    <init-param>
+      <param-name>locales</param-name>
+      <param-value>zh_CN</param-value>
+    </init-param>
+    <load-on-startup>3</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>webEntryPoint</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>webOutPoint</servlet-name>
+    <url-pattern>*.screen</url-pattern>
+  </servlet-mapping>
+<!-- 
+  <session-config>
+	<session-timeout>20</session-timeout>
+  </session-config>
+-->
+  <welcome-file-list>
+    <welcome-file>login.screen</welcome-file>
+  </welcome-file-list>
+ 
+  <taglib>
+    <taglib-uri>main</taglib-uri>
+    <taglib-location>/WEB-INF/html.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>logic</taglib-uri>
+    <taglib-location>/WEB-INF/logic.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>resultset</taglib-uri>
+    <taglib-location>/WEB-INF/resultset.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>cur</taglib-uri>
+    <taglib-location>/WEB-INF/customer.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>privilege</taglib-uri>
+    <taglib-location>/WEB-INF/privilege.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>bookmark</taglib-uri>
+    <taglib-location>/WEB-INF/bookmark.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>osstags</taglib-uri>
+    <taglib-location>/WEB-INF/oss.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>operator</taglib-uri>
+    <taglib-location>/WEB-INF/operator.tld</taglib-location>
+  </taglib>
+
+  <env-entry>
+    <description>Define the implementation class of the Component Manager</description>
+    <env-entry-name>param/ComponentManager</env-entry-name>
+    <env-entry-value>com.dtv.oss.web.controller.ComponentManager</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>
+
+  <env-entry>
+    <description>Define the implementation class of the Web Crontroller</description>
+    <env-entry-name>param/WebController</env-entry-name>
+    <env-entry-value>com.dtv.oss.web.controller.DefaultWebController</env-entry-value>
+    <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>
+
+</web-app>

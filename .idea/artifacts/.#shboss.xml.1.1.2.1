@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="shboss">
+    <output-path>$PROJECT_DIR$/out/artifacts/bossear</output-path>
+    <root id="root">
+      <element id="directory" name="BusinessLogic.jar">
+        <element id="artifact" artifact-name="BusinessLogic:ejb exploded" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/BusinessLogic/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="directory" name="Entitybean.jar">
+        <element id="artifact" artifact-name="Entitybean:ejb exploded" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/j2eeapp/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="directory" name="Web.war">
+        <element id="artifact" artifact-name="Web:war exploded" />
+      </element>
+      <element id="library" level="project" name="lib" />
+      <element id="javaee-facet-resources" facet="j2eeapp/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

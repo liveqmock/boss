@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: cxfclientlib.jar jxl.jar mail-1.4.jar geronimo-ws-metadata
+ _2.0_spec-1.1.2.jar log4j-1.2.11.jar ojdbc14.jar cpdetector_1.04.jar 
+ c3p0-0.9.0.jar
+

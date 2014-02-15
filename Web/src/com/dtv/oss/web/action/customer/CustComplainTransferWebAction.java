@@ -1,0 +1,42 @@
+package com.dtv.oss.web.action.customer;
+
+import javax.servlet.http.HttpServletRequest;
+
+import com.dtv.oss.dto.CustComplainProcessDTO;
+import com.dtv.oss.dto.wrap.customer.ComplainWrap;
+import com.dtv.oss.service.ejbevent.EJBEvent;
+import com.dtv.oss.service.ejbevent.csr.CustomerComplainEJBEvent;
+import com.dtv.oss.web.action.GeneralWebAction;
+import com.dtv.oss.web.exception.WebActionException;
+import com.dtv.oss.web.util.WebUtil;
+
+public class CustComplainTransferWebAction extends GeneralWebAction{
+
+	protected EJBEvent encapsulateData(HttpServletRequest request) throws Exception {
+		ComplainWrap wrap=new ComplainWrap();
+				
+		if(WebUtil.StringHaveContent(request.getParameter("txtCustComplainId"))){
+			wrap.getDto().setCustComplainId(WebUtil.StringToInt(request.getParameter("txtCustComplainId")));
+			wrap.getPdto().setCustComplainId(WebUtil.StringToInt(request.getParameter("txtCustComplainId")));
+		}else throw new WebActionException("没有投诉受理单ID");
+		
+		if (WebUtil.StringHaveContent(request.getParameter("transferType"))){
+	    	  if(("auto").equalsIgnoreCase(request.getParameter("transferType"))){
+	    		  wrap.getPdto().setNextOrgId(WebUtil.StringToInt(request.getParameter("txtAutoNextOrgID")));
+	    		  wrap.getDto().setCurrentWorkOrgID(WebUtil.StringToInt(request.getParameter("txtAutoNextOrgID")));
+	    	  }else if(("manual").equalsIgnoreCase(request.getParameter("transferType"))){
+	    		  wrap.getPdto().setNextOrgId(WebUtil.StringToInt(request.getParameter("txtAutoNextOrgID")));
+	    	  }
+	      }
+		
+		if(WebUtil.StringHaveContent(request.getParameter("txtCustomerId")))
+			wrap.getDto().setCustomerId(WebUtil.StringToInt(request.getParameter("txtCustomerId")));
+		
+		if(WebUtil.StringHaveContent(request.getParameter("txtDescriptionTrans")))
+			wrap.getPdto().setDescription(request.getParameter("txtDescriptionTrans"));
+		
+		if(WebUtil.StringHaveContent(request.getParameter("txtDtLastmod")))
+			wrap.getDto().setDtLastmod(WebUtil.StringToTimestamp(request.getParameter("txtDtLastmod")));
+		return new CustomerComplainEJBEvent(wrap,CustomerComplainEJBEvent.COMPLAIN_TRANSFER);
+	}
+}

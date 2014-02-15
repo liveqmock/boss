@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="false" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/QueryCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/csr/CsrQueryCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/csr/CustomerProductCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/csr/ServiceAccountCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/statistics/StatQueryCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/BusinessRuleService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/CSIService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/FeeService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/PublicService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/ServiceAccountService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/controller/EJBEventProcessor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/ejbevent/EJBEvent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/ejbevent/QueryEJBEvent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/ejbevent/csr/CsrQueryEJBEvent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/listhandler/ValueListHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/listhandler/csr/CustomerListHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/util/BusinessUtility.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/util/CommonConstDefinition.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Utility/src/com/dtv/oss/dto/ServiceAccountDeviceDTO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Web/dvb/account/account_view.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Web/dvb/customer/bill_query_result_for_cust.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Web/src/com/dtv/oss/util/Postern.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Web/src/com/dtv/oss/web/action/customer/QueryInvoiceWebAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Web/src/com/dtv/oss/web/util/CustInfoTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebFramework/src/com/dtv/oss/web/controller/ControlServlet.java" charset="GBK" />
+  </component>
+</project>
+

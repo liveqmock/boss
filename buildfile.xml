@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<project name="OSS" default="allbuild" basedir=".">
+	<target name="init">
+		<echo message="in    init        start"/>
+		<property name="classes.dir" value="classes"/>
+		<property name="BusinessLogic.dir" value="BusinessLogic"/>
+		<property name="Entitybean.dir" value="Entitybean"/>
+		<property name="Utility.dir" value="Utility"/>
+		<property name="Websrc.dir" value="Web/src"/>
+		<property name="Webdvb.dir" value="Web/dvb"/>
+		<property name="WebFramework.dir" value="WebFramework"/>
+		<property name="build.dir" value="build"/>
+		<echo message=" in init       end"/>
+	</target>
+	<target name="allbuild" depends="create-ear">
+		<echo message="in all build "/>
+	</target>
+	
+	<target name="compile_utility" depends="init">
+		<echo message=" in compile_utility start"/>
+		<mkdir dir="${classes.dir}/Utility"/>
+		<mkdir dir="${classes.dir}/Utility/META-INF"/>
+		<javac srcdir="${Utility.dir}/src"
+			destdir="${classes.dir}/Utility"
+			debug="on"
+		>
+		</javac>
+		<echo message="in compile_utility end"/>
+	</target>
+	
+	<target name="create-utilityjar" depends="compile_utility">
+		<echo message="in create-utilityjar start"/>
+		<copy todir="${classes.dir}/Utility/META-INF">
+			<fileset dir="${Utility.dir}/META-INF"/>
+		</copy>
+		<copy file="${classes.dir}/lib/log4j.properties" todir="${classes.dir}/Utility"/>
+		<jar jarfile="${classes.dir}/utility.jar"  basedir="${classes.dir}/Utility" manifest="${Utility.dir}/META-INF/manifest.mf"/>
+		<echo message="in create-utilityjar end"/>
+	</target>
+	<target name="compile_Entitybean" depends="create-utilityjar">
+		<echo message="in compile_Entitybean start"/>
+		<mkdir dir="${classes.dir}/Entitybean"/>
+		<mkdir dir="${classes.dir}/Entitybean/META-INF"/>
+		<javac srcdir="${Entitybean.dir}/src"
+			destdir="${classes.dir}/Entitybean"
+			debug="on"
+		>
+			<classpath>
+				<pathelement location = "${classes.dir}/utility.jar"/>
+			</classpath>
+		</javac>
+		<echo message="in compile_Entitybean end"/>
+	</target>
+	<target name="create-p5_entityjar" depends="compile_Entitybean">
+		<echo message="in create-p5_entityjar start"/>
+		<copy todir="${classes.dir}/Entitybean/META-INF">
+			<fileset dir="${Entitybean.dir}/META-INF"/>
+		</copy>
+		<jar jarfile="${classes.dir}/p5_entity.jar"  basedir="${classes.dir}/Entitybean" />
+		<echo message="in create-p5_entityjar end"/>
+	</target>
+	
+
+	
+	<target name="compile_BusinessLogic" depends="create-p5_entityjar">
+		<echo message="in compile_BusinessLogic start"/>
+		<mkdir dir="${classes.dir}/BusinessLogic"/>
+		<mkdir dir="${classes.dir}/BusinessLogic/META-INF"/>
+		<javac srcdir="${BusinessLogic.dir}/src"
+			destdir="${classes.dir}/BusinessLogic"
+			debug="on"
+		>
+			<classpath>
+				<pathelement location = "${classes.dir}/p5_entity.jar"/>
+				<pathelement location = "${classes.dir}/utility.jar"/>	
+			</classpath>
+		</javac>
+		<echo message=" in compile_BusinessLogic end"/>
+	</target>
+	<target name="create-ejbjar" depends="compile_BusinessLogic">
+		<echo message="in create-ejbjar "/>
+		<copy todir="${classes.dir}/BusinessLogic/META-INF">
+			<fileset dir="${BusinessLogic.dir}/META-INF"/>
+		</copy>
+		<jar jarfile="${classes.dir}/ejb.jar" basedir="${classes.dir}/BusinessLogic" manifest="${BusinessLogic.dir}/META-INF/manifest.mf" />
+		<echo message=" in create-ejbjar end"/>
+	</target>
+		
+	<target name="compile_WebFramework" depends="create-ejbjar">
+		<echo message="in compile_WebFramework start"/>
+		<echo message=" in compile_WebFramework"/>
+		<mkdir dir="${classes.dir}/WebFramework"/>
+		<javac srcdir="${WebFramework.dir}/src"
+			destdir="${classes.dir}/WebFramework"
+			debug="on"
+		>
+		<classpath>
+				<pathelement location = "${classes.dir}/ejb.jar"/>
+				<pathelement location = "${classes.dir}/p5_entity.jar"/>
+		</classpath>
+		</javac>
+		
+		<echo message="in compile_WebFramework end"/>
+	</target>
+	
+	<target name="create-WebFrameworkjar" depends="compile_WebFramework">
+		<echo message="in create-WebFrameworkjar start"/>
+		<mkdir dir="${classes.dir}/Entitybean/META-INF"/>
+		<jar jarfile="${classes.dir}/WebFramework.jar" basedir="${classes.dir}/WebFramework" manifest="${WebFramework.dir}/META-INF/manifest.mf" />
+		<echo message="in create-WebFrameworkjar end"/>
+	</target>
+	<target name="create-war"  depends="create-WebFrameworkjar">
+		<echo message="in create-war"/>
+		<mkdir dir="${classes.dir}/web"/>
+		<copy todir="${classes.dir}/web">
+			<fileset dir="${Webdvb.dir}" />
+		</copy>
+		<mkdir dir="${classes.dir}/web/WEB-INF/lib"/>
+		<mkdir dir="${classes.dir}/web/WEB-INF/classes"/>
+		<javac srcdir="${Websrc.dir}"
+			destdir="${classes.dir}/web/WEB-INF/classes"
+			debug="on"
+		>
+			<classpath>
+				<pathelement location = "${classes.dir}/WebFramework.jar"/>
+				<pathelement location = "${classes.dir}/ejb.jar"/>
+				<pathelement location = "${classes.dir}/p5_entity.jar"/>
+				<pathelement location = "${classes.dir}/utility.jar"/>
+				<pathelement location = "${classes.dir}/lib/jxl.jar"/>
+				<pathelement location = "${classes.dir}/lib/poi-3.0.1-FINAL-20070705.jar"/>
+			</classpath>
+		</javac>
+		<copy file="${classes.dir}/ejb.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/log4j-1.2.11.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/jxl.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/poi-3.0.1-FINAL-20070705.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/WebFramework.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/p5_entity.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/utility.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<jar jarfile="${classes.dir}/oss.war" basedir="${classes.dir}/web" manifest="${classes.dir}/web/META-INF/manifest.mf" />
+	</target>	
+	<target name="create-ear"  depends="create-war">
+		<echo message=" in create-ear"/>
+		<mkdir dir="ear"/>
+		<mkdir dir="ear/META-INF"/>
+		<copy file="${classes.dir}/ejb.jar" todir="ear"/>
+		<copy file="${classes.dir}/p5_entity.jar" todir="ear"/>
+		<copy file="${classes.dir}/oss.war" todir="ear"/>
+		<copy file="${classes.dir}/utility.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/log4j-1.2.11.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/poi-3.0.1-FINAL-20070705.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/jxl.jar" todir="ear"/>
+		<copy file="${classes.dir}/META_INF/application.xml" todir="ear/META-INF"/>
+		<copy file="${classes.dir}/META_INF/MANIFEST.MF" todir="ear/META-INF"/>
+		<copy file="${classes.dir}/META_INF/weblogic-application.xml" todir="ear/META-INF"/>
+		<jar jarfile="${build.dir}/oss.ear" basedir="ear" />
+	</target>
+
+</project>

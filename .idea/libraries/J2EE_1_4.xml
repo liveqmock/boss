@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="J2EE 1.4">
+    <CLASSES>
+      <root url="jar://C:/software/bea/weblogic81/server/lib/weblogic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

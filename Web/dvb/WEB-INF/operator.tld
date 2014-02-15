@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+"http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>html</short-name>
+  <uri>http://jakarta.apache.org/struts/tags-html-1.0.2</uri>
+  <tag>
+    <name>curoper</name>
+    <tag-class>com.dtv.oss.web.taglib.context.CurrentOperatorTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>property</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>typeName</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  <tag>
+    <name>tableDisplay</name>
+    <tag-class>com.dtv.oss.web.taglib.context.CurrentTableDisplayTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <name>sourceTableId</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>objectTableId</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>sourceTd</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>objectTd</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>noSpanClass</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>

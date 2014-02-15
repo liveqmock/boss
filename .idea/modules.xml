@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BusinessLogic/BusinessLogic.iml" filepath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Entitybean/Entitybean.iml" filepath="$PROJECT_DIR$/Entitybean/Entitybean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utility/Utility.iml" filepath="$PROJECT_DIR$/Utility/Utility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/Web.iml" filepath="$PROJECT_DIR$/Web/Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebFramework/WebFramework.iml" filepath="$PROJECT_DIR$/WebFramework/WebFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2eeapp/j2eeapp.iml" filepath="$PROJECT_DIR$/j2eeapp/j2eeapp.iml" />
+    </modules>
+  </component>
+</project>
+

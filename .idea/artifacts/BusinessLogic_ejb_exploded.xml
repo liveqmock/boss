@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="BusinessLogic:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/shboss/BusinessLogic.jar</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BusinessLogic/ejb/EJB" />
+      <element id="module-output" name="BusinessLogic" />
+      <element id="module-output" name="Utility" />
+      <element id="module-output" name="fftio" />
+    </root>
+  </artifact>
+</component>

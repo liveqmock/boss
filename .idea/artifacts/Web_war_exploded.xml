@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/shboss/Web.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Web" />
+          <element id="module-output" name="BusinessLogic" />
+          <element id="module-output" name="Entitybean" />
+          <element id="module-output" name="Utility" />
+          <element id="module-output" name="fftio" />
+          <element id="module-output" name="WebFramework" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Web/web/shbossweb" />
+    </root>
+  </artifact>
+</component>

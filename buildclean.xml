@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<project name="SCN" default="cleanup" basedir=".">
+	<target name="cleanup">
+		<delete verbose="false" includeEmptyDirs="true" dir="ear"/>
+		<delete verbose="false" includeEmptyDirs="true" dir="classes/BusinessLogic"/>
+		<delete verbose="false" includeEmptyDirs="true" dir="classes/WebFramework"/>
+		<delete verbose="false" includeEmptyDirs="true" dir="classes/Entitybean"/>
+		<delete verbose="false" includeEmptyDirs="true" dir="classes/web"/>
+		<delete verbose="false" includeEmptyDirs="true" dir="classes/Utility"/>
+		<delete  file="classes/dvb.war"/>
+		<delete  file="classes/oss.war"/>
+		<delete  file="classes/utility.jar"/>
+		<delete file="classes/ejb.jar"/>
+		<delete file="classes/p5_entity.jar"/>
+		<delete file="classes/WebFramework.jar"/>
+		<delete file="build/OSS.ear"/>
+	</target>
+</project>
