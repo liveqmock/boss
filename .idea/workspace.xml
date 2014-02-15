@@ -140,18 +140,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ejb-jar.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ejb-jar.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Entitybean/META-INF/ejb-jar.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2992" column="24" selection-start="114198" selection-end="114198" vertical-scroll-proportion="21.18797" vertical-offset="51212" max-vertical-offset="242649">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider">
             <state />
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.components.TransactionAttributesEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2334" column="24" selection-start="89444" selection-end="89444" vertical-scroll-proportion="-14.346154" vertical-offset="43973" max-vertical-offset="242649">
+              <folding />
+            </state>
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider">
             <state />
@@ -167,10 +167,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/j2eeapp/META-INF/application.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="337" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="475">
+            <state line="19" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5841424" vertical-offset="0" max-vertical-offset="618">
               <folding />
             </state>
           </provider>
@@ -324,20 +324,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shboss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2eeapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -372,7 +358,7 @@
     <property name="FileHistory.com.intellij.cvsSupport2.history.CvsHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.com.intellij.cvsSupport2.history.CvsHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.com.intellij.cvsSupport2.history.CvsHistoryProvider_flatWidth3" value="76" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.com.intellij.cvsSupport2.history.CvsHistoryProvider_flatWidth2" value="79" />
     <property name="FileHistory.com.intellij.cvsSupport2.history.CvsHistoryProvider_flatWidth1" value="67" />
     <property name="project.structure.proportion" value="0.15" />
@@ -991,11 +977,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DtoExFilter" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ThreeDesUtil" />
-      <item index="3" class="java.lang.String" itemvalue="WebLogic Server.weblogic9" />
-      <item index="4" class="java.lang.String" itemvalue="WebLogic Server.Weblogic v.10.3.1.0" />
+      <item index="0" class="java.lang.String" itemvalue="WebLogic Server.weblogic9" />
+      <item index="1" class="java.lang.String" itemvalue="WebLogic Server.Weblogic v.10.3.1.0" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DtoExFilter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreeDesUtil" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1031,11 +1017,12 @@
       <workItem from="1392300389807" duration="38000" />
       <workItem from="1392300528180" duration="627000" />
       <workItem from="1392384102130" duration="1686000" />
+      <workItem from="1392429633512" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4324000" />
+    <option name="totallyTimeSpent" value="4709000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1069,22 +1056,21 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.6797619" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5614887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32546374" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38413686" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32131147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22112462" sideWeight="0.23648648" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6547009" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5925059" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4881757" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.33333334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.33333334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.503888" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1094,6 +1080,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42905983" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48867315" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38413686" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1138,16 +1125,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/logistics/DeviceStockCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="10754">
-          <folding />
-        </state>
+        <state line="26" column="48" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="10754" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/csr/ServiceAccountCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="32718">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="32718" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebFramework/src/com/dtv/oss/web/action/GeneralWebAction.java">
@@ -1165,16 +1148,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Entitybean/META-INF/ejb-jar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242687">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.components.TransactionAttributesEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242687">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider">
         <state />
@@ -1196,309 +1179,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Utility/src/com/dtv/oss/util/EntityBeanAutoUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1349">
-          <folding />
-        </state>
+        <state line="2" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1349" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/src/com/dtv/oss/util/Postern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16188" column="0" selection-start="407286" selection-end="407286" vertical-scroll-proportion="0.0" vertical-offset="305064" max-vertical-offset="305064">
-          <folding>
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name,..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemdisplayControl..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DeviceClass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangeactivity..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapcommand..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.ope..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventreason..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, B..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.org..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.nam..t_systemsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_SystemLog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select imgLi..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select servi..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_fapiaodeopt..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.xml..t_migration_base..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select statu..T_RESOURCE_PHONENO..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT acct...t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select PRODU..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DEVIC..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_Address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargainDetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_commonsettingdata..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_disadditionalinfor..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID,NA..T_BILLINGCYCLE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bidimconfigsettingvalue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ptc.S..T_ProductToService..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_bidimconfigsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select infos..t_diagnosisinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_JOBCARD..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CustomerProblem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.dev..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_Producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangecond..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_brcondition..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_BundlePrepayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select d.* F..t_groupbargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomermarketinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_acctitemtype..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_accountItem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_prepaymentdeductionrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ACCTI..T_ACCTITEMTYPE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_ACCOUNT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_callbackinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..missingValue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DESCR..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_CUSTOMERPRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select batch..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_Query..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PRODU..T_PRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT id,na..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT CAMPA..T_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT calcu..T_financialsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_logisticssetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packagetomarketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select refer..t_productdependency..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.Mar..T_CampaignToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.* f..T_PackageToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* f..t_campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * fro..T_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select pr.* ..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT serv...t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_caqueue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..t_customercampaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_campaign_cond_package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.sta..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ssif_eventcmdmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_deviceclass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select workr..t_jobcardprocess..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgty..T_OrgAndSubOrgConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..T_MENUCONFIGURATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DynamicFormSetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DYNAMICSHOWATTRIBUTES..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select devic..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_Customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ccmap..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_cpcampaignmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Packa..T_Bundle2Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_csiactionreasonsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select mts.t..t_manualtransfersetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_roleorganization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id fr..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_customerbillingrule..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_CatvTerminal..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentRecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select max(a..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_campaignpaymentaward..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_protocol..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select invoi..t_bankdeduction_invoicedetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cawal..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select c.caw..t_cawallet..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select distr..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicetransitiondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..rownum..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select rownu..serialno..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ter.s..T_TERMINALDEVICE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicebatchpreauth..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select p.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_devicepreauthrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select backI..t_printConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..T_PACKAGELINE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id,pr..t_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_carecv..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_casent..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.id ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_foundcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_exportcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select Name ..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jq_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceAccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpd.e..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpn.d..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-          </folding>
-        </state>
+        <state line="16188" column="0" selection-start="407286" selection-end="407286" vertical-scroll-proportion="0.0" vertical-offset="305064" max-vertical-offset="305064" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/FeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="74784">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="74784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/logistics/DeviceStockCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="10754">
-          <folding />
-        </state>
+        <state line="26" column="48" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="10754" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/csr/ServiceAccountCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="32718">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="32718" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebFramework/src/com/dtv/oss/web/action/GeneralWebAction.java">
@@ -1537,281 +1238,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/src/com/dtv/oss/util/Postern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28041" column="28" selection-start="762250" selection-end="762250" vertical-scroll-proportion="0.0" vertical-offset="532399" max-vertical-offset="985207">
-          <folding>
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name,..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemdisplayControl..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DeviceClass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangeactivity..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapcommand..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.ope..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventreason..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, B..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.org..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.nam..t_systemsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_SystemLog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select imgLi..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select servi..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_fapiaodeopt..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.xml..t_migration_base..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select statu..T_RESOURCE_PHONENO..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT acct...t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select PRODU..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DEVIC..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_Address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargainDetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_commonsettingdata..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_disadditionalinfor..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID,NA..T_BILLINGCYCLE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bidimconfigsettingvalue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ptc.S..T_ProductToService..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_bidimconfigsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select infos..t_diagnosisinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_JOBCARD..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CustomerProblem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.dev..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_Producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangecond..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_brcondition..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_BundlePrepayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select d.* F..t_groupbargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomermarketinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_acctitemtype..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_accountItem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_prepaymentdeductionrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ACCTI..T_ACCTITEMTYPE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_ACCOUNT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_callbackinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..missingValue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DESCR..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_CUSTOMERPRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select batch..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_Query..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PRODU..T_PRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT id,na..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT CAMPA..T_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT calcu..T_financialsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_logisticssetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packagetomarketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select refer..t_productdependency..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.Mar..T_CampaignToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.* f..T_PackageToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* f..t_campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * fro..T_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select pr.* ..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT serv...t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_caqueue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..t_customercampaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_campaign_cond_package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.sta..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ssif_eventcmdmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_deviceclass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select workr..t_jobcardprocess..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgty..T_OrgAndSubOrgConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..T_MENUCONFIGURATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DynamicFormSetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DYNAMICSHOWATTRIBUTES..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select devic..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_Customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ccmap..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_cpcampaignmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Packa..T_Bundle2Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_csiactionreasonsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select mts.t..t_manualtransfersetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_roleorganization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id fr..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_customerbillingrule..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_CatvTerminal..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentRecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select max(a..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_campaignpaymentaward..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_protocol..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select invoi..t_bankdeduction_invoicedetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cawal..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select c.caw..t_cawallet..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select distr..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicetransitiondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..rownum..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select rownu..serialno..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ter.s..T_TERMINALDEVICE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicebatchpreauth..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select p.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_devicepreauthrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select backI..t_printConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..T_PACKAGELINE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id,pr..t_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_carecv..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_casent..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.id ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_foundcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_exportcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select Name ..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jq_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceAccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpd.e..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpn.d..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-          </folding>
-        </state>
+        <state line="28041" column="28" selection-start="762250" selection-end="762250" vertical-scroll-proportion="0.0" vertical-offset="532399" max-vertical-offset="985207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebFramework/src/com/dtv/oss/web/action/GeneralWebAction.java">
@@ -1850,281 +1277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/src/com/dtv/oss/util/Postern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28021" column="28" selection-start="761197" selection-end="761197" vertical-scroll-proportion="0.0" vertical-offset="532399" max-vertical-offset="985207">
-          <folding>
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name,..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemdisplayControl..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DeviceClass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangeactivity..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapcommand..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.ope..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventreason..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, B..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.org..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.nam..t_systemsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_SystemLog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select imgLi..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select servi..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_fapiaodeopt..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.xml..t_migration_base..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select statu..T_RESOURCE_PHONENO..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT acct...t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select PRODU..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DEVIC..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_Address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargainDetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_commonsettingdata..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_disadditionalinfor..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID,NA..T_BILLINGCYCLE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bidimconfigsettingvalue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ptc.S..T_ProductToService..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_bidimconfigsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select infos..t_diagnosisinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_JOBCARD..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CustomerProblem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.dev..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_Producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangecond..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_brcondition..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_BundlePrepayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select d.* F..t_groupbargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomermarketinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_acctitemtype..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_accountItem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_prepaymentdeductionrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ACCTI..T_ACCTITEMTYPE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_ACCOUNT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_callbackinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..missingValue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DESCR..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_CUSTOMERPRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select batch..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_Query..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PRODU..T_PRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT id,na..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT CAMPA..T_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT calcu..T_financialsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_logisticssetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packagetomarketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select refer..t_productdependency..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.Mar..T_CampaignToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.* f..T_PackageToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* f..t_campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * fro..T_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select pr.* ..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT serv...t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_caqueue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..t_customercampaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_campaign_cond_package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.sta..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ssif_eventcmdmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_deviceclass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select workr..t_jobcardprocess..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgty..T_OrgAndSubOrgConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..T_MENUCONFIGURATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DynamicFormSetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DYNAMICSHOWATTRIBUTES..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select devic..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_Customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ccmap..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_cpcampaignmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Packa..T_Bundle2Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_csiactionreasonsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select mts.t..t_manualtransfersetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_roleorganization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id fr..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_customerbillingrule..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_CatvTerminal..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentRecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select max(a..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_campaignpaymentaward..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_protocol..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select invoi..t_bankdeduction_invoicedetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cawal..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select c.caw..t_cawallet..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select distr..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicetransitiondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..rownum..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select rownu..serialno..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ter.s..T_TERMINALDEVICE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicebatchpreauth..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select p.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_devicepreauthrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select backI..t_printConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..T_PACKAGELINE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id,pr..t_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_carecv..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_casent..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.id ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_foundcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_exportcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select Name ..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jq_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceAccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpd.e..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpn.d..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-          </folding>
-        </state>
+        <state line="28021" column="28" selection-start="761197" selection-end="761197" vertical-scroll-proportion="0.0" vertical-offset="532399" max-vertical-offset="985207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebFramework/src/com/dtv/oss/web/action/GeneralWebAction.java">
@@ -2214,295 +1367,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/csr/ServiceAccountCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="32718">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="32718" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/src/com/dtv/oss/util/Postern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16183" column="0" selection-start="407256" selection-end="407256" vertical-scroll-proportion="3.765653" vertical-offset="302750" max-vertical-offset="305064">
-          <folding>
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_TerminalDevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustaccountinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name,..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemdisplayControl..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_methodofpayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_MethodOfPayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DeviceClass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangeactivity..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapcommand..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_ldapproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.ope..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventreason..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, B..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.org..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID, N..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select disti..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.nam..t_systemsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.FIE..t_fieldconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_SystemLog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select imgLi..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select servi..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bossconfiguration..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_fapiaodeopt..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.xml..t_migration_base..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select statu..T_RESOURCE_PHONENO..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT acct...t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select PRODU..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DEVIC..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_Address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargainDetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_commonsettingdata..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_disadditionalinfor..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ID,NA..T_BILLINGCYCLE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_groupBargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_bidimconfigsettingvalue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ptc.S..T_ProductToService..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_bidimconfigsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select infos..t_diagnosisinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_JOBCARD..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CustomerProblem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.dev..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_Producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangecond..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_userpointsexchangegoods..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_brcondition..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_BundlePrepayment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_CAMPAIGN_AGMT_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_bundlepaymentmethod..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..T_Campaign_Cond_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select d.* F..t_groupbargain..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomermarketinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_acctitemtype..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_address..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_newcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_oldcustomerinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_accountItem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_prepaymentdeductionrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ACCTI..T_ACCTITEMTYPE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_ACCOUNT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_callbackinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..missingValue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select DESCR..T_BIDIMCONFIGSETTINGVALUE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_CUSTOMERPRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select batch..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_Query..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..T_BATCHJOB..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PRODU..T_PRODUCT..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT id,na..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT CAMPA..T_CAMPAIGN..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT ORGID..T_ORGANIZATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT PACKA..T_PRODUCTPACKAGE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT calcu..T_financialsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_logisticssetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_packagetomarketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select refer..t_productdependency..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.Mar..T_CampaignToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.* f..T_PackageToMarketSegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_Campaign_Agmt_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_marketsegment..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..T_ProductPackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* F..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select a.* f..t_campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgid..t_organization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * fro..T_Product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select pr.* ..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT serv...t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_systemprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_opgrouptoprivilege..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_operator..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.pr..t_packageline..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.di..t_orggoverneddistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_opgroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.op..t_optogroup..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productproperty..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_caqueue..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..t_customercampaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_campaign_cond_package..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.sta..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_systemeventdef..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ssif_eventcmdmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_deviceclass..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contract..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_contracttopackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select workr..t_jobcardprocess..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jobcard..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplanitem..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_feesplitplan..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_devicemodel..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.de..t_devicematchtoproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select orgty..T_OrgAndSubOrgConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select * Fro..T_MENUCONFIGURATION..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DynamicFormSetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_invoice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..T_DYNAMICSHOWATTRIBUTES..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_service..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.se..t_producttoservice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select devic..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_Customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ccmap..T_CPCAMPAIGNMAP..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_cpcampaignmap..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select Packa..T_Bundle2Campaign..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_csiactionreasonsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiactionreasondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select mts.t..t_manualtransfersetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_roleorganization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id fr..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_customerbillingrule..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_CatvTerminal..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_custserviceinteraction..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_productpackage..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select produ..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_paymentRecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select max(a..t_account..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_campaignpaymentaward..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.* f..t_protocol..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select invoi..t_bankdeduction_invoicedetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cawal..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select p.Pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select c.caw..t_cawallet..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..t_cawalletdefine..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select distr..t_marketsegmenttodistrict..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicetransitiondetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..rownum..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select rownu..serialno..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select ter.s..T_TERMINALDEVICE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_ossi_authorization..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_devicebatchpreauth..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select p.pro..t_product..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.pro..t_devicepreauthrecord..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select backI..t_printConfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_csiprocesslog..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..T_PACKAGELINE..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceaccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select id,pr..t_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_carecv..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_casent..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t.id ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select name ..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_foundcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select t.pro..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select td.se..t_terminaldevice..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select t1.be..t_exportcustomerdetail..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="Select Name ..T_DISTRICTSETTING..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_jq_printconfig..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select * fro..t_serviceAccount..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_districtsetting..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select a.* f..t_customer..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpd.e..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select cpn.d..t_customerproduct..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-            <marker date="1284284922000" expanded="true" signature="-1:-1" placeholder="select disti..t_csicustproductinfo..." />
-          </folding>
-        </state>
+        <state line="16183" column="0" selection-start="407256" selection-end="407256" vertical-scroll-proportion="3.765653" vertical-offset="302750" max-vertical-offset="305064" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utility/src/com/dtv/oss/util/EntityBeanAutoUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349">
-          <folding />
-        </state>
+        <state line="2" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Entitybean/META-INF/weblogic-cmp-rdbms-jar.xml">
@@ -2514,16 +1389,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/command/logistics/DeviceStockCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.16351119" vertical-offset="0" max-vertical-offset="10241">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.16351119" vertical-offset="0" max-vertical-offset="10241" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusinessLogic/src/com/dtv/oss/service/component/FeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="-0.16351119" vertical-offset="608" max-vertical-offset="74689">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="-0.16351119" vertical-offset="608" max-vertical-offset="74689" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Entitybean/META-INF/weblogic-ejb-jar.xml">
@@ -2531,6 +1402,22 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="86070">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entitybean/META-INF/ejb-jar.xml">
+      <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.components.TransactionAttributesEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2334" column="24" selection-start="89444" selection-end="89444" vertical-scroll-proportion="-14.346154" vertical-offset="43973" max-vertical-offset="242649">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j2eeapp/META-INF/weblogic-application.xml">
@@ -2542,25 +1429,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/j2eeapp/META-INF/application.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="337" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="475">
+        <state line="19" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5841424" vertical-offset="0" max-vertical-offset="618">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Entitybean/META-INF/ejb-jar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2992" column="24" selection-start="114198" selection-end="114198" vertical-scroll-proportion="21.18797" vertical-offset="51212" max-vertical-offset="242649">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.components.TransactionAttributesEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider">
-        <state />
       </provider>
     </entry>
   </component>
