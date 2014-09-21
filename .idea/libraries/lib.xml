@@ -4,8 +4,16 @@
       <root url="jar://$PROJECT_DIR$/classes/lib/jxl.jar!/" />
       <root url="jar://$PROJECT_DIR$/classes/lib/log4j-1.2.11.jar!/" />
       <root url="jar://$PROJECT_DIR$/classes/lib/poi-3.0.1-FINAL-20070705.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/lib/json-lib-2.4-jdk14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/lib/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/lib/ezmorph-1.0.6.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../dwr-2.0.11-20120401.212622-7-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

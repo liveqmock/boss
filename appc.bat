@@ -1,2 +1,2 @@
 call setenv.bat
-java -Xms256m -Xmx512m weblogic.appc build\oss.ear
+java -Xms768m -Xmx768m weblogic.appc build\oss.ear

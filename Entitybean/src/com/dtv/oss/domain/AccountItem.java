@@ -74,6 +74,11 @@ public interface AccountItem extends javax.ejb.EJBLocalObject {
   public  int getCcID();
   public  void setRfBillingCycleFlag(String rfBillingCycleFlag);
   public  String getRfBillingCycleFlag();
-  
+    //20140222 fapiao
+    public void setFapiaoHaoma(String fapiaoHaoma);
+    public String getFapiaoHaoma();
+  public void setFapiaoSerialNo(String fapiaoSerialNo);
+    public String getFapiaoSerialNo();
+    //end //20140222 fapiao
   public int ejbUpdate(AccountItemDTO dto);
 }

@@ -148,6 +148,11 @@
 		<copy file="${classes.dir}/oss.war" todir="ear"/>
 		<copy file="${classes.dir}/utility.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/log4j-1.2.11.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/commons-beanutils-1.8.3.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/commons-collections-3.2.1.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/commons-lang-2.6.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/commons-logging-1.1.1.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/ezmorph-1.0.6.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/poi-3.0.1-FINAL-20070705.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/jxl.jar" todir="ear"/>
 		<copy file="${classes.dir}/META_INF/application.xml" todir="ear/META-INF"/>

@@ -673,6 +673,9 @@ SQLException {
 		dto.setCcID(rs.getInt(prex+"CcID"));
 		dto.setFeeSplitPlanID(rs.getInt(prex+"FeeSplitPlanID"));
 		dto.setRfBillingCycleFlag(rs.getString(prex+"RfBillingCycleFlag"));
+        //20140222 fapiao
+        dto.setFapiaoSerialNo(rs.getString(prex+"FapiaoSerialNo"));
+        dto.setFapiaoHaoma(rs.getString(prex+"FapiaoHaoma"));
 		return dto;
 	}
 

@@ -13,6 +13,10 @@ abstract public class AccountItemBean implements EntityBean {
      
   }
   public java.lang.Integer ejbCreate(AccountItemDTO dto) throws CreateException {
+    //20140222 fapiao
+      setFapiaoSerialNo(dto.getFapiaoSerialNo());
+      setFapiaoHaoma(dto.getFapiaoHaoma());
+     //end 20140222
     setBatchNO(dto.getBatchNO());
     setCustID(dto.getCustID());
     setAcctID(dto.getAcctID());
@@ -67,7 +71,12 @@ abstract public class AccountItemBean implements EntityBean {
   public abstract int getCcID();
   public abstract void setRfBillingCycleFlag(String rfBillingCycleFlag);
   public abstract String getRfBillingCycleFlag();
-  
+    //20140222 fapiao
+    public abstract void setFapiaoHaoma(String fapiaoHaoma);
+    public abstract String getFapiaoHaoma();
+    public abstract void setFapiaoSerialNo(String fapiaoSerialNo);
+    public abstract String getFapiaoSerialNo();
+    //end //20140222 fapiao
   public abstract void setSourceRecordID(int sourceRecordID);
   public abstract void setBrID(int brID);
   public abstract int getBrID(); 

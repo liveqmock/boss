@@ -1,0 +1,144 @@
+<%@ taglib uri="/WEB-INF/html.tld" prefix="tbl" %>
+<%@ taglib uri="logic" prefix="lgc" %>
+<%@ taglib uri="resultset" prefix="rs" %>
+<%@ taglib uri="/WEB-INF/oss.tld" prefix="d" %>
+<%@ taglib uri="bookmark" prefix="bk" %>
+
+<%@ page import="com.dtv.oss.util.Postern,                 
+                 java.text.DecimalFormat,
+                 java.util.HashMap,
+                 java.util.Map,
+                 java.util.Iterator" %>
+<%@ page import="com.dtv.oss.web.util.WebUtil" %>
+<%@ page import="com.dtv.oss.web.util.CommonKeys" %>
+
+ <Script language="JavaScript">
+    function check_frm(){
+       if (document.frmPost.billPayTotal.value*1.0 !=document.frmPost.generalPayTotal.value*1.0){
+          alert("支付金额与帐单总额不相等！");
+          return false;
+       }
+       return true;
+    }
+    function prepare_before_submit(){
+    	var l=document.getElementsByName("invoiceID") ;
+    	document.frmPost.strInvoiceNo.value=l[0].value;
+    	for(i=1;i<l.length;i++){
+    		document.frmPost.strInvoiceNo.value+=(";"+l[i].value);
+    		//alert(document.frmPost.strInvoiceNo.value);
+    	}
+    }
+    function pay_submit(){
+       if (check_frm()){
+       	  prepare_before_submit();
+          document.frmPost.submit();
+       }
+    }
+    function back_submit(url){
+    	 var strInvoiceId=document.getElementsByName("invoiceID") ;
+    	 if (strInvoiceId[0] !=null){
+    	    prepare_before_submit();
+    	 }
+    	 document.frmPost.action = url;
+       document.frmPost.submit();
+    }  
+ </Script>
+<table  border="0" align="center" cellpadding="0" cellspacing="10" >
+  <tr>
+    <td><img src="img/list_tit.gif" width="19" height="19"></td>
+    <td class="title">批量支付帐单</td>
+  </tr>
+</table> 
+<table width="98%"  border="0" align="center" cellpadding="0" cellspacing="0" background="img/line_01.gif">
+  <tr>
+    <td><img src="img/mao.gif" width="1" height="1"></td>
+  </tr>
+</table>
+<br>               
+<form name="frmPost" method="post" action="bill_batch_pay.do">
+<%double totalpay=0.0f;%> 
+<br>
+<table  width="98%" border="0" cellpadding="6" cellspacing="1" class="list_bg" >
+   <tr class="list_head">    
+      <td  class="list_head" align="center">客户证号</td>
+      <td  class="list_head" align="center">客户姓名</td>
+      <td  class="list_head" align="center">帐户号</td> 
+      <td class="list_head"  align="center">客户地址</td>
+      <td class="list_head"  align="center">帐期</td>
+      <td class="list_head"  align="center">帐单号</td>
+      <td class="list_head"  align="center">帐单金额</td>   
+    </tr>
+    <lgc:bloop requestObjectName="ResponseQueryResult" item="oneline" >
+    <% 
+      Collection resultCols = (Collection)pageContext.getAttribute("oneline");
+      Iterator resultIter =resultCols.iterator();
+      while (resultIter.hasNext()) {
+        Object inVoiceObj =resultIter.next();
+    %>            
+      <tbl:printcsstr style1="list_bg1" style2="list_bg2" overStyle="list_over" >            
+        <td align="center"><%=resultIter.next()%></td>
+        <td align="center"><%=resultIter.next()%></td>
+        <td align="center"><%=resultIter.next()%></td>
+        <td align="center"><%=resultIter.next()%></td>
+        <%
+          Object invoiceCycleObj =resultIter.next();
+          int invoiceCycleID =WebUtil.StringToInt(invoiceCycleObj.toString());
+        %>
+        <td align="center"><%=Postern.getBillingCycleNameByID(invoiceCycleID)%></td>
+        <td align="center"><%=inVoiceObj.toString()%>
+            <input type="hidden" name="invoiceID" value="<%=inVoiceObj.toString()%>">
+        </td>   
+        <%
+          Object itemamountObj =resultIter.next();
+          double  itemamount =WebUtil.StringTodouble(itemamountObj.toString());
+          totalpay=(double)(Math.floor(totalpay*100+itemamount*100+0.01)/100);  
+        %>
+        <td align="center" style="text-align:right"><%=itemamountObj.toString()%></td>
+      </tbl:printcsstr>
+    <%
+      }    
+    %>
+	  </lgc:bloop> 
+	<% DecimalFormat to= new DecimalFormat("0.00");%> 
+   <tr class="list_bg2">
+   <td colspan="6" align="right">累计应付总额</td>
+   <td align="right"><input type="text" style="text-align:right" size="12" name="billPayTotal" value="<%=to.format(totalpay)%>" readonly class="textgray"></td>
+   </tr>
+   <tr>
+    <td colspan="7" class="list_foot"></td>
+  </tr>    
+</table>     
+<br>                       
+<table width="98%"  border="0" align="center" cellpadding="0" cellspacing="0" background="img/line_01.gif">
+  <tr>
+    <td><img src="img/mao.gif" width="1" height="1"></td>
+  </tr>
+</table>
+<br>
+   <input type="hidden" name ="generalFeeTotal" value ="" >
+    	<%
+       		request.setAttribute("defaultGeneralFeeTotal",new Double(totalpay));
+    	%>
+    	<tbl:CommonFeeAndPaymentInfo includeParameter="Pay" payCsiType="<%=CommonKeys.CUSTSERVICEINTERACTIONTYPE_PI%>" acctshowFlag ="false" confirmFlag="false" />		 
+    	
+   <input type="hidden" name="strInvoiceNo" value="">
+   <input type="hidden" name="confirm_post"  value="true" >
+   <input type="hidden" name="func_flag" value="">    
+   <tbl:hiddenparameters pass="txtqueryStyle" />  
+<tbl:generatetoken /> 
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+   	<bk:canback url="bill_batch_pay_query.do/bill_batch_query_for_singleAccount.do">
+     <td><img src="img/button2_r.gif" width="22" height="20"></td>
+	   <td><input name="prev" type="button" class="button" onclick="javascript:back_submit('<bk:backurl property='bill_batch_pay_query.do/bill_batch_query_for_singleAccount.do' />')" value="上一步"></td>
+	   <td><img src="img/button2_l.gif" width="11" height="20"></td>
+	  </bk:canback> 
+	   <td width="20" ></td> 
+     <td><img src="img/button_l.gif" border="0" ></td>
+     <td><input name="next" type="button" class="button" onClick="javascript:pay_submit()" value="确&nbsp;认"></td>
+     <td><img src="img/button_r.gif" border="0" ></td>           
+   </tr>
+</table>  
+</form>
+
+  

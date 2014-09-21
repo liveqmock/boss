@@ -11,6 +11,7 @@ package com.dtv.oss.web.util;
 
 public class CommonKeys {
 
+
 	public static final String SYSTEM_CONFIG_MENU_KEY="com.dtv.oss.dto.SystemConfigMenu";
 	//预约的参数
     public static final String ACTION_OF_BOOKING ="0";

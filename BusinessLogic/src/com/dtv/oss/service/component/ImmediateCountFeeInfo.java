@@ -14,6 +14,16 @@ import java.io.Serializable;
  */
 public class ImmediateCountFeeInfo implements Serializable
 {
+    //add 20140222 添加发票信息
+    public String getFapiaoSerialNo() {
+        return fapiaoSerialNo;
+    }
+
+    public void setFapiaoSerialNo(String fapiaoSerialNo) {
+        this.fapiaoSerialNo = fapiaoSerialNo;
+    }
+    private String fapiaoSerialNo;
+    //end    20140222 添加发票信息
     //用于存储原有的预存纪录。
 	private Collection prePaymentList;
 	//用于销帐的归并费用明细, Collection of AccountItemDTO
@@ -51,6 +61,7 @@ public class ImmediateCountFeeInfo implements Serializable
 
 	public ImmediateCountFeeInfo()
 	{
+        this.fapiaoSerialNo="-1";
 		this.preCashDoposit = 0.0f;
 		this.preTokenDoposit = 0.0f;
 		this.totalPreReturnFee = 0.0f;

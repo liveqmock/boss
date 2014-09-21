@@ -16184,5 +16184,48 @@ public class Postern {
 
 		return packageName;
 	}
-	
+	//获取发票号码 20140222
+    /*
+	 * 得到受理的软件产品包
+	 */
+    public static String getFapiaoSerialNo() {
+
+
+        Connection con = null;
+        Statement stmt = null;
+        ResultSet rs = null;
+        String result="";
+        try {
+            con = DBUtil.getConnection();
+            stmt = con.createStatement();
+            String sql = null;
+
+            sql = "select no from t_fapiaoserialno where rownum<2";
+						
+						
+            rs = stmt.executeQuery(sql);
+            if (rs.next()) {
+              result=  rs.getString("no");
+            }
+            rs.close();
+        } catch (Exception e) {
+            LogUtility.log(Postern.class, LogLevel.WARN,
+                    "getFapiaoSerialNo", e);
+        } finally {
+            if (stmt != null) {
+                try {
+                    stmt.close();
+                } catch (SQLException e) {
+                }
+            }
+            if (con != null) {
+                try {
+                    con.close();
+                } catch (SQLException e) {
+                }
+            }
+        }
+
+        return result;
+    }
 }

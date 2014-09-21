@@ -102,7 +102,8 @@ public class FeeAdjustWebAction extends GeneralWebAction {
 				throw new WebActionException("½ð¶î±ØÌî");
 			}
 
-			AccountItemDTO acctDto =new AccountItemDTO(); 
+			AccountItemDTO acctDto =new AccountItemDTO();
+
 			feeList.add(acctDto);
 			acctDto.setFeeType(feeType);
 			acctDto.setAcctItemTypeID(itemType);

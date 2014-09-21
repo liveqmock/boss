@@ -96,7 +96,10 @@ public class AccountManualFeeWebAction extends GeneralWebAction{
 		Collection feelist = new ArrayList();
 		Collection paylist = new ArrayList();
 		Collection preDuctionlist = new ArrayList();
-		String xml = request.getParameter("xml");		
+		String xml = request.getParameter("xml");
+        //20140222 发票代码和号码读取
+        String fapiao_serialno=request.getParameter("fapiao_serialno");
+        String fapiao_haoma=request.getParameter("fapiao_haoma");
 		Document xmlDoc = null;
 		try{
 			xmlDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder()
@@ -135,6 +138,9 @@ public class AccountManualFeeWebAction extends GeneralWebAction{
 			acctItemDto.setReferType(CommonKeys.AIREFERTYPE_M);
 			acctItemDto.setCreatingMethod(CommonKeys.FTCREATINGMETHOD_M);
 			acctItemDto.setInvoiceFlag(CommonKeys.FORCEDDEPOSITFLAG_N);
+            //20140222 发票代码和号码读取
+            acctItemDto.setFapiaoHaoma(fapiao_haoma);
+            acctItemDto.setFapiaoSerialNo(fapiao_serialno);
 			if(CommonKeys.BRFEETYPE_PREPAY.equals(acctItemDto.getFeeType())){
 				acctItemDto.setForcedDepositFlag(CommonKeys.FORCEDDEPOSITFLAG_Y);
 			}else

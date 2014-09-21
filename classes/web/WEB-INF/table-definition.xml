@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!--
+define the relation between a field name and its display
+
+-->
+
+<db-config>
+
+ <table>
+   <name>NewCustomerInfo</name>
+   <display>新用户信息</display>
+   <field>
+    <name>getId</name>
+    <display>编号</display>
+   </field>
+ </table>
+
+ <table>
+   <name>CatvTerminal</name>
+   <display>房产信息</display>
+   <field>
+    <name>getCatvID</name>
+    <display>用户终端编号</display>
+   </field>
+   <field>
+    <name>getStatus</name>
+    <display>终端状态</display>
+   </field>
+   <field>
+    <name>getRecordSource</name>
+    <display>本次登记来源</display>
+   </field>
+   <field>
+    <name>getDetailedAddress</name>
+    <display>地址</display>
+   </field>
+   <field>
+    <name>getCreateTime</name>
+    <display>开户日期</display>
+   </field>
+   <field>
+    <name>getActiveTime</name>
+    <display>开通日期</display>
+   </field>
+ </table> 
+     
+ <table>
+   <name>JobCardWithNew</name>
+   <display>作业单及新用户</display>
+   <field>
+    <name>getAssignedOrgID</name>
+    <display>分公司</display>
+   </field>
+   <field>
+    <name>getAssignedPartyID</name>
+    <display>街道</display>
+   </field>
+   <field>
+    <name>getDT_create</name>
+    <display>开户日期</display>
+   </field>
+   <field>
+    <name>getStatus</name>
+    <display>作业单状态</display>
+   </field>
+ </table> 
+ 
+ <table>
+   <name>JobCardWithCatv</name>
+   <display>作业单及终端</display>
+   <field>
+    <name>Catvterminal_DTO:getCatvID</name>
+    <display>终端编号</display>
+   </field>
+   <field>
+    <name>Catvterminal_DTO:getDetailedAddress</name>
+    <display>详细地址</display>
+   </field>
+   <field>
+    <name>JobCard_DTO:getDT_create</name>
+    <display>创建时间</display>
+   </field>
+   <field>
+    <name>JobCard_DTO:getStatus</name>
+    <display>作业单状态</display>
+   </field>
+ </table> 
+ 
+ <table>
+   <name>CustCatvterminalMapWrap</name>
+   <display>未办理迁出</display>
+   <field>
+    <name>Catvterminal_DTO:getCatvID</name>
+    <display>终端编号</display>
+   </field>
+   <field>
+    <name>Catvterminal_DTO:getDetailedAddress</name>
+    <display>详细地址</display>
+   </field>
+ </table> 
+ 
+ <table>
+   <name>TransCustInfo</name>
+   <display>迁移单</display>
+   <field>
+    <name>getTransSheetID</name>
+    <display>迁移单编号</display>
+   </field>
+   <field>
+    <name>getToCountyID</name>
+    <display>迁入区</display>
+   </field>
+   <field>
+    <name>getCreateTime</name>
+    <display>迁出时间</display>
+   </field>
+ </table> 
+ 
+</db-config>

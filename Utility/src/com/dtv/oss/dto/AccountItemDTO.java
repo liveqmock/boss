@@ -40,7 +40,27 @@ public class AccountItemDTO  implements ReflectionSupport, java.io.Serializable
     
     private int groupNo,sheafNo;
     
-    
+    //20140222 发票信息
+    private String fapiaoSerialNo;
+    private String fapiaoHaoma;
+
+    public String getFapiaoSerialNo() {
+        return fapiaoSerialNo;
+    }
+
+    public void setFapiaoSerialNo(String fapiaoSerialNo) {
+        this.fapiaoSerialNo = fapiaoSerialNo;
+    }
+
+    public String getFapiaoHaoma() {
+        return fapiaoHaoma;
+    }
+
+    public void setFapiaoHaoma(String fapiaoHaoma) {
+        this.fapiaoHaoma = fapiaoHaoma;
+    }
+
+    //end 20140222 发票信息
 	public int getGroupNo() {
 		return groupNo;
 	}
@@ -429,6 +449,9 @@ public class AccountItemDTO  implements ReflectionSupport, java.io.Serializable
 						&& this.getProductID() == that.getProductID()
 						&& this.getCcID() == that.getCcID()
 						&& this.getFeeSplitPlanID() == that.getFeeSplitPlanID()
+                        //发票信息 20140222
+                        &&this.getFapiaoHaoma().equals(that.getFapiaoHaoma())
+                        &&this.getFapiaoSerialNo().equals(that.getFapiaoSerialNo())
 						&& this.getValue() == that.getValue()
 						&& this.getAdjustmentNo() == that.getAdjustmentNo()
 						&& (((this.getDate1() == null) && (that.getDate1() == null)) || (this.getDate1() != null && this
@@ -472,6 +495,9 @@ public class AccountItemDTO  implements ReflectionSupport, java.io.Serializable
 	{
 		StringBuffer buf = new StringBuffer(256);
 		buf.append(aiNO);
+        //20140222 发票信息
+        buf.append(",").append(fapiaoSerialNo);
+        buf.append(",").append(fapiaoHaoma);
 		buf.append(",").append(batchNO);
 		buf.append(",").append(custID);
 		buf.append(",").append(acctID);
