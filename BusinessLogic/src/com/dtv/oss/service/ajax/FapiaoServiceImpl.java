@@ -27,10 +27,10 @@ public class FapiaoServiceImpl implements IFapiaoService {
             StringBuffer strSql = new StringBuffer();
             strSql.append("SELECT count(batch) count FROM t_ljfapiao  WHERE state='W' ");
             if(fapiaodaima!=null&&fapiaodaima.trim().length()>0){
-                strSql.append(" and fapiaodaima="+fapiaodaima);
+                strSql.append(" and fapiaodaima like '"+fapiaodaima+"%'");
             }
             if(fapiaohaoma!=null&&fapiaohaoma.trim().length()>0){
-                strSql.append(" and fapiaohaoma="+fapiaohaoma);
+                strSql.append(" and fapiaohaoma like '"+fapiaohaoma+"%'");
             }
             con = DBUtil.getConnection();
             stmt = con.prepareStatement(strSql.toString());
@@ -71,25 +71,20 @@ public class FapiaoServiceImpl implements IFapiaoService {
         ArrayList currentDataList = new ArrayList();
         try {
             StringBuffer strSql = new StringBuffer();
-            strSql.append("SELECT * FROM ( SELECT A.*, ROWNUM RN FROM (SELECT * FROM T_LJFAPIAO) A WHERE ROWNUM <=? ) WHERE RN >? and state='W'");
+            strSql.append("SELECT * FROM ( SELECT A.*, ROWNUM RN FROM (SELECT * FROM T_LJFAPIAO where   state='W' ");
             if(fapiaodaima!=null&&fapiaodaima.trim().length()>0){
-                strSql.append(" and fapiaodaima like ?");
+                strSql.append(" and fapiaodaima like '"+fapiaodaima+"%'");
             }
             if(fapiaohaoma!=null&&fapiaohaoma.trim().length()>0){
-                strSql.append(" and fapiaohaoma like ?");
+                strSql.append(" and fapiaohaoma like '"+fapiaohaoma+"%'");
             }
+             strSql.append(        ") A WHERE ROWNUM <=? ) WHERE RN >? ");
+
             con = DBUtil.getConnection();
             stmt = con.prepareStatement(strSql.toString());
             stmt.setInt(1,endIdx);
             stmt.setInt(2,startIdx);
-            int haomaidx=3;
-            if(fapiaodaima!=null&&fapiaodaima.trim().length()>0){
-               stmt.setString(3,fapiaodaima+"%");
-                haomaidx=4;
-            }
-            if(fapiaohaoma!=null&&fapiaohaoma.trim().length()>0){
-              stmt.setString(haomaidx,fapiaohaoma+"%");
-            }
+
             rs = stmt.executeQuery();
             while (rs.next()) {
                 LjFapiao ljFapiao=new LjFapiao();

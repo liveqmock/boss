@@ -137,6 +137,12 @@
 		<copy file="${classes.dir}/WebFramework.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
 		<copy file="${classes.dir}/p5_entity.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
 		<copy file="${classes.dir}/utility.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/commons-beanutils-1.8.3.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/commons-collections-3.2.1.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/commons-lang-2.6.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/commons-logging-1.1.1.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/ezmorph-1.0.6.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
+		<copy file="${classes.dir}/lib/json-lib-2.4-jdk14.jar" todir="${classes.dir}/web/WEB-INF/lib"/>
 		<jar jarfile="${classes.dir}/oss.war" basedir="${classes.dir}/web" manifest="${classes.dir}/web/META-INF/manifest.mf" />
 	</target>	
 	<target name="create-ear"  depends="create-war">
@@ -153,6 +159,7 @@
 		<copy file="${classes.dir}/lib/commons-lang-2.6.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/commons-logging-1.1.1.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/ezmorph-1.0.6.jar" todir="ear"/>
+		<copy file="${classes.dir}/lib/json-lib-2.4-jdk14.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/poi-3.0.1-FINAL-20070705.jar" todir="ear"/>
 		<copy file="${classes.dir}/lib/jxl.jar" todir="ear"/>
 		<copy file="${classes.dir}/META_INF/application.xml" todir="ear/META-INF"/>

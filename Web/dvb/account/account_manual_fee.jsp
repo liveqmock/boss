@@ -382,7 +382,7 @@ function updateListStyle(listname){
 }
 function selectFapiao(){
     var  strFeatures = "width=650px,height=500px,resizable=no,toolbar=no,scrollbars=yes,status=yes";
-    var res=showModalDialog("fapiao/list.html","·¢Æ±ºÅÂë¼ìË÷",strFeatures);
+    var res=showModalDialog("<%=request.getContextPath()%>/fapiao/template.jsp","·¢Æ±ºÅÂë¼ìË÷",strFeatures);
     var arrRes=res.split(',');
     document.getElementById("fapiao_serialno").value=arrRes[1];
     document.getElementById("fapiao_haoma").value=arrRes[2];
